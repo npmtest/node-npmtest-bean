@@ -1,0 +1,15 @@
+{
+  "name": "npmtest-bean",
+  "description": "# package.json",
+  "version": "0.0.1",
+  "keywords": [
+    "coverage",
+    "test",
+    "bean"
+  ],
+  "main": "bean.js",
+  "scripts": [
+    "bean.js"
+  ],
+  "repo": "https://github.com/fat/bean"
+}
