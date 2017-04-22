@@ -1,4 +1,7 @@
-# test coverage for  [bean (v1.0.15)](https://github.com/fat/bean)  [![npm package](https://img.shields.io/npm/v/npmtest-bean.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bean) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bean.svg)](https://travis-ci.org/npmtest/node-npmtest-bean)
+# npmtest-bean
+
+#### basic test coverage for  [bean (v1.0.15)](https://github.com/fat/bean)  [![npm package](https://img.shields.io/npm/v/npmtest-bean.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bean) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bean.svg)](https://travis-ci.org/npmtest/node-npmtest-bean)
+
 #### A small, fast, framework-agnostic event manager
 
 [![NPM](https://nodei.co/npm/bean.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/bean)
@@ -32,29 +35,19 @@
 ```json
 
 {
+    "name": "bean",
+    "description": "A small, fast, framework-agnostic event manager",
+    "version": "1.0.15",
+    "homepage": "https://github.com/fat/bean",
     "authors": [
         "Jacob Thornton <@fat>",
         "Rod Vagg <@rvagg>",
         "Dustin Diaz <@ded>"
     ],
-    "bugs": {
-        "url": "https://github.com/fat/bean/issues"
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fat/bean.git"
     },
-    "dependencies": {},
-    "description": "A small, fast, framework-agnostic event manager",
-    "devDependencies": {
-        "buster": "~0.6.2",
-        "qwery": "~3.3.11",
-        "smoosh": "~0.4.1"
-    },
-    "directories": {},
-    "dist": {
-        "shasum": "b4a9fff82618b071471676c8b190868048c34775",
-        "tarball": "https://registry.npmjs.org/bean/-/bean-1.0.15.tgz"
-    },
-    "ender": "./src/ender.js",
-    "gitHead": "b0e3c26b61a6b0ebb5ff08c9af876d6324d3d9a5",
-    "homepage": "https://github.com/fat/bean",
     "keywords": [
         "ender",
         "events",
@@ -62,25 +55,13 @@
         "dom"
     ],
     "main": "./bean.js",
-    "maintainers": [
-        {
-            "name": "ded"
-        },
-        {
-            "name": "fat"
-        },
-        {
-            "name": "rvagg"
-        }
-    ],
-    "name": "bean",
-    "optionalDependencies": {},
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/fat/bean.git"
+    "devDependencies": {
+        "buster": "~0.6.2",
+        "smoosh": "~0.4.1",
+        "qwery": "~3.3.11"
     },
-    "scripts": {},
-    "version": "1.0.15"
+    "ender": "./src/ender.js",
+    "bin": {}
 }
 ```
 
